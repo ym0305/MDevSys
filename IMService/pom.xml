@@ -8,14 +8,13 @@
         <version>3.1.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.yamin</groupId>
-    <artifactId>Core</artifactId>
+    <groupId>com.example</groupId>
+    <artifactId>IMService</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Core</name>
-    <description>Core</description>
+    <name>IMService</name>
+    <description>IMService</description>
     <properties>
     </properties>
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -27,15 +26,14 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
-<!--        <plugins>-->
-<!--            <plugin>-->
-<!--                <groupId>org.springframework.boot</groupId>-->
-<!--                <artifactId>spring-boot-maven-plugin</artifactId>-->
-<!--            </plugin>-->
-<!--        </plugins>-->
+
     </build>
 
 </project>
